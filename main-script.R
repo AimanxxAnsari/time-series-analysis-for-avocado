@@ -5,7 +5,7 @@ library(fpp)
 library(fpp2)
 library(fma)
 
-df <- read.csv("/Users/biryani/Documents/ts-project/avocado.csv")
+df <- read.csv("/Users/biryani/Documents/code/time-series-avocado/avocado.csv")
 
 # Split the data into training and test datasets
 test_data <- subset(df, Date >= as.Date("2018-01-01") & Date <= as.Date("2018-03-11"))

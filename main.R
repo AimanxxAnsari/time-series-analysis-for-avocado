@@ -1,5 +1,9 @@
+##this file is experimental and working around the main-script
+##to ensure data integrity and not tries not to skew any df
+##this file contains excess code; may not have used in the final script or report
+
 library(readr)
-data1 <- read_csv("/Users/biryani/Documents/ts-project/avocado.csv")
+data1 <- read.csv("/Users/biryani/Documents/code/time-series-avocado/avocado.csv")
 
 #head(data1)
 

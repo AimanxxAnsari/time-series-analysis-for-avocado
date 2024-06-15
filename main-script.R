@@ -130,8 +130,3 @@ mse_os <- mse_value_os
 mse_df <- data.frame(Type = c("CV", "OS"),
                      MSE = c(mse_cv, mse_os))
 knitr::kable(mse_df)
-
-
-
-
-
